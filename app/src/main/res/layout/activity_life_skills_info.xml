@@ -47,10 +47,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintVertical_bias="0.368" />
 
     <TextView
         android:id="@+id/textView27"
@@ -62,23 +61,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
-
-    <Button
-        android:id="@+id/sewingBasket"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#b05d84"
-        android:text="ADD TO BASKET"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
+        app:layout_constraintVertical_bias="0.653" />
 
     <Button
         android:id="@+id/lifeBackBtn"
@@ -88,10 +73,10 @@
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView57"
@@ -140,31 +125,31 @@
         android:id="@+id/textView60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This course helps students navigate basic life necessities and gives tem enough knowledge to make detrimental decisions. The course prepares them for life by showing them things like how to open a bank account and know their rights so they know how to fight disputes if they were to ever start working and what third parties they may need to refer to if it gets to that point. Basic reading, writing and numeric literacy so they don't find themselves signing things that may not be in their favour. "
         android:padding="16dp"
+        android:text="This course helps students navigate basic life necessities and gives tem enough knowledge to make detrimental decisions. The course prepares them for life by showing them things like how to open a bank account and know their rights so they know how to fight disputes if they were to ever start working and what third parties they may need to refer to if it gets to that point. Basic reading, writing and numeric literacy so they don't find themselves signing things that may not be in their favour. "
         android:textColor="#6f3f2d"
         android:textSize="13sp"
         app:layout_constraintBottom_toTopOf="@+id/textView27"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <TextView
         android:id="@+id/textView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The course helps and expects students to gain self competency and confidence for when they enter the working and professional world. it equips students with skills and knowledge to navigate with the different aspects of life once they become integral members of society. the abilities that students are equipped with help them adapt positive behaviour that enables them to effectively deal with everyday challanges that come with life."
         android:padding="16dp"
+        android:text="The course helps and expects students to gain self competency and confidence for when they enter the working and professional world. it equips students with skills and knowledge to navigate with the different aspects of life once they become integral members of society. the abilities that students are equipped with help them adapt positive behaviour that enables them to effectively deal with everyday challanges that come with life."
         android:textColor="#6f3f2d"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <ImageView
         android:id="@+id/imageView3"

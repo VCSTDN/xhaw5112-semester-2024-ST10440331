@@ -61,23 +61,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="49dp"
-        android:text="ADD TO BASKET"
-        android:backgroundTint="#b05d84"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.855"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.6" />
 
     <TextView
         android:id="@+id/textView50"
@@ -127,37 +114,22 @@
         android:id="@+id/gardenBackBtn"
         android:layout_width="148dp"
         android:layout_height="49dp"
-        android:text="BACK"
         android:backgroundTint="#b05d84"
+        android:text="BACK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView53"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The Garden Maintenance Essentials course provides a comprehensive introduction to effective garden care and management. Designed for both beginners and experienced gardeners, this course covers essential skills for maintaining healthy and attractive gardens throughout the seasons. Participants will learn practical techniques for plant care, pest management, and garden design, ensuring their gardens thrive year-round."
-        android:padding="16dp"
-        android:textColor="#6f3f2d"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:backgroundTint="#F7F5F2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
-
-    <TextView
-        android:id="@+id/textView54"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pest and Disease Control: Identify common garden pests and diseases, and apply effective management strategies, including organic and chemical solutions. Seasonal Maintenance: Develop skills for seasonal tasks such as preparing gardens for winter, spring planting, and summer upkeep. Garden Design and Planning: Gain knowledge in designing functional and aesthetically pleasing garden spaces, including plant selection and layout. Tool and Equipment Use: Learn the proper use and maintenance of garden tools and equipment to ensure efficiency and safety."
         android:padding="16dp"
+        android:text="The Garden Maintenance Essentials course provides a comprehensive introduction to effective garden care and management. Designed for both beginners and experienced gardeners, this course covers essential skills for maintaining healthy and attractive gardens throughout the seasons. Participants will learn practical techniques for plant care, pest management, and garden design, ensuring their gardens thrive year-round."
         android:textColor="#6f3f2d"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -165,7 +137,22 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Pest and Disease Control: Identify common garden pests and diseases, and apply effective management strategies, including organic and chemical solutions. Seasonal Maintenance: Develop skills for seasonal tasks such as preparing gardens for winter, spring planting, and summer upkeep. Garden Design and Planning: Gain knowledge in designing functional and aesthetically pleasing garden spaces, including plant selection and layout. Tool and Equipment Use: Learn the proper use and maintenance of garden tools and equipment to ensure efficiency and safety."
+        android:textColor="#6f3f2d"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
 
     <ImageView
         android:id="@+id/imageView7"

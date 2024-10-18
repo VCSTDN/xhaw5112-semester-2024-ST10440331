@@ -54,6 +54,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="https://www.google.com/maps/d/edit?mid=1P3-LzOgo2cFmcDkN5nW9i5YIq4E9vco&amp;usp=sharing"/>
+
     </application>
 
 </manifest>

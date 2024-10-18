@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
         val selectCoursesBtn: Button = findViewById(R.id.selectcoursesBtn)
         selectCoursesBtn.setOnClickListener {
-            val intent = Intent(this, SixMonthsCourses::class.java)
+            val intent = Intent(this, SixWeekCourses::class.java)
             startActivity(intent)
         }
     }

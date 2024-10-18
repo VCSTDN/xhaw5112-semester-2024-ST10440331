@@ -26,17 +26,5 @@ class SewinInfo : AppCompatActivity() {
             val intent = Intent(this, SixMonthsCourses::class.java)
             startActivity(intent)
         }
-        
-        val sewingCourse = ContactFees.Course(name = "Sewing Course", price = 1200.0)
-
-        // Add to basket functionality
-        val sewingaddBasket: Button = findViewById(R.id.sewingaddBasket)
-        sewingaddBasket.setOnClickListener {
-            // Add the course to the basket
-            ContactFees.Basket.addCourse(sewingCourse)
-
-           //Show a message to the user
-            Toast.makeText(this, "${sewingCourse.name} added to basket", Toast.LENGTH_SHORT).show()
-        }
     }
 }

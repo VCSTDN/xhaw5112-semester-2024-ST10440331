@@ -65,19 +65,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.594" />
 
-    <Button
-        android:id="@+id/sewingaddBasket"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ADD TO BASKET"
-        android:backgroundTint="#b05d84"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.832"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
-
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="160dp"
@@ -94,11 +81,11 @@
         android:id="@+id/sewingBackBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BACK"
         android:backgroundTint="#b05d84"
+        android:text="BACK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.954" />
